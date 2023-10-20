@@ -62,8 +62,8 @@ Repo:
 GitHub repository: alx-backend
 Directory: 0x00-pagination
 File: 0-simple_helper_function.py
-  
-1. Simple pagination
+
+# 1. Simple pagination #
 mandatory
 Copy index_range from the previous task and the following class into your code
 
@@ -154,7 +154,7 @@ AssertionError raised when page and/or page_size are not ints
 []
 bob@dylan:~$ 
 Repo:
-
+#
 GitHub repository: alx-backend
 Directory: 0x00-pagination
 File: 1-simple_pagination.py
@@ -204,7 +204,7 @@ bob@dylan:~$ ./2-main.py
 {'page_size': 0, 'page': 3000, 'data': [], 'next_page': None, 'prev_page': 2999, 'total_pages': 195}
 bob@dylan:~$ 
 Repo:
-
+#
 GitHub repository: alx-backend
 Directory: 0x00-pagination
 File: 2-hypermedia_pagination.py
@@ -309,7 +309,7 @@ print(server.get_hyper_index(index, page_size))
 
 # 5- request again initial next index -> same data page as the request 2-
 print(server.get_hyper_index(res.get('next_index'), page_size))
-
+#
 bob@dylan:~$ 
 bob@dylan:~$ ./3-main.py
 AssertionError raised when out of range
@@ -325,3 +325,4 @@ Repo:
 GitHub repository: alx-backend
 Directory: 0x00-pagination
 File: 3-hypermedia_del_pagination.py
+#
